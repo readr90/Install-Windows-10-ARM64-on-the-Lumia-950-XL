@@ -1,3 +1,16 @@
-# Как установить Windows 10 ARM на Lumia 950 XL
+# Как установить Windows 10 ARM на Lumia 950 XL и что сейчас работает
 Для установки понадобится программа WoA Installer, набор служебных утилит для неё, образ Windows 10 ARM64, натйи который не сложно при помощи сервиса adguard.net, а также смартфон Microsoft Lumia 950/XL с разблокированным загрузчиком. Разблокировать последний поможет программа WPinternals.
 Интересно, что те самые энтузиасты предусмотрели возможность двойной загрузки систем на смартфоне: Windows 10 и Windows 10 Mobile, что позволит владельцу устройства по желанию использовать гаджет и по прямому назначению — для звонков.
+Сейчас работают такие функции:
+PEP (root cause of every difference with other devices right now)
+GPU
+Iris biometric sensor (missing drivers) пока нет драйвера
+Cameras (missing drivers) пока нет драйвера
+Any kind of sensor (except ALS)
+Audio
+Microphones
+Vibration motor
+WLAN (requires PEP)
+HDMI out via USB-C
+Cellular
+FM Radio
